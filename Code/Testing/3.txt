@@ -1,0 +1,5 @@
+fung ohela f(ohela b)
+{
+dekl ohela p = 5;
+return p;
+}

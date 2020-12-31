@@ -1,0 +1,29 @@
+﻿Сборка начата 30.12.2020 14:43:45.
+Уровень детализации журнала: Normal.     1>Проект "D:\Курсач\Код\Asm\Asm.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Asm.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       _MASM:
+         Assembling ..\KDV-2020\Debug\asm.asm...
+         cmd.exe /C "C:\Users\User\AppData\Local\Temp\tmpc6bacc353eb44f8d88a1d4c35e5a546c.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\asm.obj" /W3 /errorReport:prompt  /Ta"..\KDV-2020\Debug\asm.asm"
+     1>..\KDV-2020\Debug\asm.asm(68): warning A6004: procedure argument or local not referenced : function_Vitya
+     1>..\KDV-2020\Debug\asm.asm(68): warning A6004: procedure argument or local not referenced : function_Mitya
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Курсач\Код\KDV-2020\Debug\Asm.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\Курсач\Код\KDV-2020\Debug\Asm.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Курсач\Код\KDV-2020\Debug\Asm.lib" /MACHINE:X86 Debug\asm.obj
+         Asm.vcxproj -> D:\Курсач\Код\KDV-2020\Debug\Asm.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Asm.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Asm.tlog\Asm.lastbuildstate".
+     1>Сборка проекта "D:\Курсач\Код\Asm\Asm.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Курсач\Код\Asm\Asm.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         ..\KDV-2020\Debug\asm.asm(68): warning A6004: procedure argument or local not referenced : function_Vitya
+         ..\KDV-2020\Debug\asm.asm(68): warning A6004: procedure argument or local not referenced : function_Mitya
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:01.15

@@ -1,0 +1,10 @@
+huvud
+{
+	dekl ohela Vitya = 5;
+	return 0;
+}
+huvud 
+{
+	dekl ohela Mitya = 3;
+	return 0;
+}

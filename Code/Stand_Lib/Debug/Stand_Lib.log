@@ -1,0 +1,28 @@
+﻿Сборка начата 30.12.2020 10:10:24.
+Уровень детализации журнала: Normal.     1>Проект "D:\Курсач\Код\Stand_Lib\Stand_Lib.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Stand_Lib.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\Stand_Lib.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Stand_Lib.cpp
+         Stand_Lib.cpp
+     1>D:\Курсач\Код\Stand_Lib\Stand_Lib.cpp(20,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\Lib.exe /OUT:"D:\Курсач\Код\KDV-2020\Debug\Stand_Lib.lib" /NOLOGO /MACHINE:X86 Debug\Stand_Lib.obj
+         Stand_Lib.vcxproj -> D:\Курсач\Код\KDV-2020\Debug\Stand_Lib.lib
+       CopyFilesToOutputDirectory:
+         Копирование файла из "D:\Курсач\Код\Stand_Lib\Debug\Stand_Lib.pdb" в "D:\Курсач\Код\KDV-2020\Debug\Stand_Lib.pdb".
+       FinalizeBuildStatus:
+         Файл "Debug\Stand_Lib.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Stand_Lib.tlog\Stand_Lib.lastbuildstate".
+     1>Сборка проекта "D:\Курсач\Код\Stand_Lib\Stand_Lib.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Курсач\Код\Stand_Lib\Stand_Lib.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Курсач\Код\Stand_Lib\Stand_Lib.cpp(20,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:01.30

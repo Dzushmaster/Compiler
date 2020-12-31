@@ -1,0 +1,12 @@
+fung hela years(hela Vitya, hela Mitya)
+{
+	dekl hela tog = 3;
+	return tog;
+}
+huvud
+{
+	dekl hela Vitya = 2;
+	dekl hela Mitya = 2;
+dekl hela togwith = years(Vitya, Mitya);
+return 0;
+

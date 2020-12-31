@@ -1,0 +1,2 @@
+D:\Курсач\Код\KDV-2020\Debug\Stand_Lib.pdb
+D:\Курсач\Код\Stand_Lib\Debug\Stand_Lib.pdb

@@ -1,0 +1,33 @@
+fung ohela function(ohela Vitya, ohela Mitya)
+{
+	dekl ohela power = Kraft(Bx100,2);
+	skriva power;
+	return power;
+}
+huvud
+{
+	dekl ohela Vitya = Ex14;
+	dekl ohela Mitya = Hx10;
+	?Условный оператор?
+	om Vitya < Mitya
+	[
+		Vitya = Kraft(Vitya,3);
+		skriva Vitya;
+	]
+	annan
+	[
+		Mitya = Kraft(Mitya,2);
+		skriva Mitya;
+	]
+	dekl ohela sqrt = Mitya + Rot(15);
+	dekl ohela random = Slump(12);
+	dekl ohela Together = Mitya + Vitya + function(Vitya,Mitya);
+	medan Vitya < Mitya
+	[
+		Vitya = Vitya+1;
+	]
+	skriva 'V';
+	skriva Vitya;
+	skriva 'T';
+	skriva Together;
+}
